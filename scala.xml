@@ -1,0 +1,3 @@
+<capture-points>
+  <capture-point enabled="false" class-name="scala.concurrent.Future$class" method-name="map" capture-key-expression="f" insert-method-name="apply" insert-key-expression="this" />
+</capture-points>
