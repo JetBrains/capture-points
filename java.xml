@@ -1,0 +1,9 @@
+<capture-points>
+  <capture-point enabled="false"
+                 class-name="java.util.concurrent.ExecutorService"
+                 method-name="submit"
+                 capture-key-expression="task"
+                 insert-class-name="java.util.concurrent.Executors$RunnableAdapter"
+                 insert-method-name="call"
+                 insert-key-expression="task" />
+</capture-points>
