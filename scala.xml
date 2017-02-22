@@ -1,8 +1,17 @@
 <capture-points>
   <capture-point enabled="false"
+                 class-name="scala.concurrent.Future$"
+                 method-name="apply"
+                 capture-key-expression="body_byNameFun"/>
+  <capture-point enabled="false"
                  class-name="scala.concurrent.Future$class"
-                 method-name="map"
-                 capture-key-expression="f"
+                 method-name="onComplete"
+                 capture-key-expression="f"/>
+  <capture-point enabled="false"
+                 class-name="scala.concurrent.impl.Promise$DefaultPromise"
+                 method-name="onComplete"
+                 capture-key-expression="func"/>
+  <capture-point enabled="false"
                  insert-method-name="apply"
-                 insert-key-expression="this" />
+                 insert-key-expression="$this0" />
 </capture-points>

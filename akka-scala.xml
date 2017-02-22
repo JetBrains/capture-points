@@ -2,8 +2,17 @@
   <capture-point enabled="false"
                  class-name="akka.actor.ScalaActorRef"
                  method-name="$bang"
-                 capture-key-expression="message"
+                 capture-key-expression="message"/>
+  <capture-point enabled="false"
+                 class-name="akka.actor.RepointableActorRef"
+                 method-name="$bang"
+                 capture-key-expression="message"/>
+  <capture-point enabled="false"
+                 class-name="akka.actor.LocalActorRef"
+                 method-name="$bang"
+                 capture-key-expression="message"/>
+  <capture-point enabled="false"
                  insert-class-name="akka.actor.Actor$class"
                  insert-method-name="aroundReceive"
-                 insert-key-expression="msg"/>
+                 insert-key-expression="msg" />
 </capture-points>
