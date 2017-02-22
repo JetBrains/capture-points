@@ -1,3 +1,9 @@
 <capture-points>
-  <capture-point enabled="false" class-name="akka.actor.ScalaActorRef" method-name="$bang" capture-key-expression="message" insert-class-name="akka.actor.Actor$class" insert-method-name="aroundReceive" insert-key-expression="msg" />
+  <capture-point enabled="false"
+                 class-name="akka.actor.ScalaActorRef"
+                 method-name="$bang"
+                 capture-key-expression="message"
+                 insert-class-name="akka.actor.Actor$class"
+                 insert-method-name="aroundReceive"
+                 insert-key-expression="msg"/>
 </capture-points>
