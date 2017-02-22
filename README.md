@@ -30,3 +30,9 @@ will insert information captured for invokeLater to the place where the Runnable
 ```
 
 more implementation details [here](https://blog.jetbrains.com/idea/2017/02/intellij-idea-2017-1-eap-extends-debugger-with-async-stacktraces/#comment-403133)
+
+## How to contribute
+ 1. create a new capture point in the IDEA, test it
+ 3. go to IDEA Settings | Build, Execution, Deployment | Debugger | Capture
+ 4. select capture points and use export action
+ 5. create a pull request here with the file created
