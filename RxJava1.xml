@@ -1,0 +1,16 @@
+<capture-points>
+  <capture-point enabled="false"
+                 class-name="rx.Subscriber"
+                 method-name="onStart"
+                 capture-key-expression="this"
+                 insert-class-name="rx.observers.SafeSubscriber"
+                 insert-method-name="onNext"
+                 insert-key-expression="actual" />
+  <capture-point enabled="false"
+                 class-name="rx.Scheduler$Worker"
+                 method-name="schedule"
+                 capture-key-expression="action"
+                 insert-class-name="rx.internal.schedulers.ScheduledAction"
+                 insert-method-name="run"
+                 insert-key-expression="action" />
+</capture-points>
