@@ -1,0 +1,10 @@
+<capture-points>
+  <capture-point enabled="true" 
+  
+    class-name="quickfix.Session" method-name="toApp" 
+    insert-class-name="quickfix.Session" insert-method-name="next" 
+
+    capture-key-expression="message.getHeader().getField(49).getValue() + &quot;-&gt;&quot; + message.getHeader().getField(56).getValue() + &quot;#&quot; + message.getHeader().getField(34).getValue()" 
+    insert-key-expression ="message.getHeader().getField(49).getValue() + &quot;-&gt;&quot; + message.getHeader().getField(56).getValue() + &quot;#&quot; + message.getHeader().getField(34).getValue()" 
+  />
+</capture-points>
