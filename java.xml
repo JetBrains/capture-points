@@ -1,9 +1,13 @@
 <capture-points>
   <capture-point enabled="false"
-                 class-name="java.util.concurrent.ExecutorService"
-                 method-name="submit"
-                 capture-key-expression="task"
-                 insert-class-name="java.util.concurrent.Executors$RunnableAdapter"
-                 insert-method-name="call"
+                 class-name="java.lang.Thread" method-name="start"
+                 capture-key-expression="this"
+                 insert-class-name="java.lang.Thread" insert-method-name="run"
+                 insert-key-expression="this" />
+
+  <capture-point enabled="false"
+                 class-name="java.util.concurrent.ExecutorService" method-name="submit"
+                 capture-key-expression="param_0"
+                 insert-class-name="java.util.concurrent.Executors$RunnableAdapter" insert-method-name="call"
                  insert-key-expression="task" />
 </capture-points>
