@@ -1,9 +1,13 @@
 <capture-points>
   <capture-point enabled="false"
-                 class-name="java.util.concurrent.CompletableFuture"
-                 method-name="supplyAsync"
-                 capture-key-expression="supplier"
-                 insert-class-name="java.util.concurrent.CompletableFuture$AsyncSupply"
-                 insert-method-name="run"
-                 insert-key-expression="f"/>
+                 class-name="java.util.concurrent.CompletableFuture" method-name="supplyAsync"
+                 capture-key-expression="param_0"
+                 insert-class-name="java.util.concurrent.CompletableFuture$AsyncSupply" insert-method-name="run"
+                 insert-key-expression="f" />
+
+  <capture-point enabled="false"
+                 class-name="java.util.concurrent.CompletableFuture" method-name="runAsync"
+                 capture-key-expression="param_0"
+                 insert-class-name="java.util.concurrent.CompletableFuture$AsyncRun" insert-method-name="run"
+                 insert-key-expression="f" />
 </capture-points>
