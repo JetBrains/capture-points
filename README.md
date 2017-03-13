@@ -29,6 +29,12 @@ For example, java.awt.event.InvocationEvent.dispatch with the insert key "runnab
 will insert information captured for invokeLater to the place where the Runnable is executed
 ```
 
+Evaluating key expression may slow down your application, so try to use simple expressions, e.g.:
+ * this
+ * method param name (also you can use param_N, where N is a zero-based param number)
+ * local variable or field name
+Method invocations are much slower and highly not recommended.
+
 more implementation details [here](https://blog.jetbrains.com/idea/2017/02/intellij-idea-2017-1-eap-extends-debugger-with-async-stacktraces/#comment-403133)
 
 ## How to contribute
