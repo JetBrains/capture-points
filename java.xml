@@ -10,4 +10,10 @@
                  capture-key-expression="param_0"
                  insert-class-name="java.util.concurrent.Executors$RunnableAdapter" insert-method-name="call"
                  insert-key-expression="task" />
+
+  <capture-point enabled="false"
+                 class-name="java.util.concurrent.ThreadPoolExecutor" method-name="execute"
+                 capture-key-expression="param_0"
+                 insert-class-name="java.util.concurrent.FutureTask" insert-method-name="run"
+                 insert-key-expression="this" />
 </capture-points>
