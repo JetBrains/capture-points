@@ -10,4 +10,16 @@
                  capture-key-expression="param_0"
                  insert-class-name="java.util.concurrent.CompletableFuture$AsyncRun" insert-method-name="run"
                  insert-key-expression="f" />
+
+  <capture-point enabled="false"
+                 class-name="java.util.concurrent.CompletableFuture" method-name="thenAcceptAsync"
+                 capture-key-expression="param_0"
+                 insert-class-name="java.util.concurrent.CompletableFuture" insert-method-name="uniAccept"
+                 insert-key-expression="f" />
+
+  <capture-point enabled="false"
+                 class-name="java.util.concurrent.CompletableFuture" method-name="thenRunAsync"
+                 capture-key-expression="param_0"
+                 insert-class-name="java.util.concurrent.CompletableFuture" insert-method-name="uniRun"
+                 insert-key-expression="f" />
 </capture-points>
