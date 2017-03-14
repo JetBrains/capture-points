@@ -1,0 +1,7 @@
+<capture-points>
+  <capture-point enabled="false"
+                 class-name="io.netty.util.concurrent.SingleThreadEventExecutor" method-name="addTask"
+                 capture-key-expression="param_0"
+                 insert-class-name="io.netty.util.concurrent.SingleThreadEventExecutor" insert-method-name="runAllTasks"
+                 insert-key-expression="task" />
+</capture-points>
