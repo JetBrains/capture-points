@@ -1,0 +1,7 @@
+<capture-points>
+  <capture-point enabled="false"
+                 class-name="io.vertx.core.http.impl.HttpClientResponseImpl" method-name="bodyHandler"
+                 capture-key-expression="param_0"
+                 insert-class-name="io.vertx.core.http.impl.HttpClientResponseImpl$BodyHandler" insert-method-name="notifyHandler"
+                 insert-key-expression="param_0" />
+</capture-points>
