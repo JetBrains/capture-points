@@ -40,6 +40,6 @@ more implementation details [here](https://blog.jetbrains.com/idea/2017/02/intel
 
 ## How to contribute
  1. create a new capture point in the IDEA, test it
- 3. go to IDEA Settings | Build, Execution, Deployment | Debugger | Capture
+ 3. go to IDEA Settings | Build, Execution, Deployment | Debugger | Async Stacktraces
  4. select capture points and use export action
  5. create a pull request here with the file created
