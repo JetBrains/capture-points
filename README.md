@@ -7,14 +7,14 @@ Read more about the feature in the [Jetbrains blog](https://blog.jetbrains.com/i
  1. download the xml settings file:
   1. click on the required xml file
   2. right click on Raw and choose "save link as..."
- 2. go to IDEA Settings | Build, Execution, Deployment | Debugger | Capture and use the Import action
+ 2. go to IDEA Settings | Build, Execution, Deployment | Debugger | Async Stacktraces and use the Import action
  4. enable the points you need
  5. start debugging
 
 ## How to write your own
 **Capture point** is a place in your program where debugger collects and saves the stack frames for later use.
 It is specified by the method name (and containing class) and the key expression which is evaluated and the resulting object is used later to get the information.
-So first go to your IDEA Settings | Build, Execution, Deployment | Debugger | Capture and create a new capture point.
+So first go to your IDEA Settings | Build, Execution, Deployment | Debugger | Async Stacktraces and create a new capture point.
 Specify the method and the key expression. Usually the key expression is just a parameter name.
 
 ```
