@@ -2,7 +2,7 @@
   <capture-point enabled="false"
                  class-name="javax.swing.SwingUtilities"
                  method-name="invokeLater"
-                 capture-key-expression="doRun"
+                 capture-key-expression="param_0"
                  insert-class-name="java.awt.event.InvocationEvent"
                  insert-method-name="dispatch"
                  insert-key-expression="runnable" />
