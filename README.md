@@ -1,4 +1,4 @@
-# IDEA debugger Capture Points
+# IDEA debugger Capture Points [![official JetBrains project](http://jb.gg/badges/official-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 
 
 Read more about the feature in the [Jetbrains blog](https://blog.jetbrains.com/idea/2017/02/intellij-idea-2017-1-eap-extends-debugger-with-async-stacktraces/).
