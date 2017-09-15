@@ -14,4 +14,29 @@
   <capture-point enabled="false"
                  insert-method-name="apply"
                  insert-key-expression="$this0" />
+  <!--Specialized methods for primitive types-->
+  <capture-point enabled="false"
+                 insert-method-name="apply$mcB$sp"
+                 insert-key-expression="$this0" />
+  <capture-point enabled="false"
+                 insert-method-name="apply$mcS$sp"
+                 insert-key-expression="$this0" />
+  <capture-point enabled="false"
+                 insert-method-name="apply$mcI$sp"
+                 insert-key-expression="$this0" />
+  <capture-point enabled="false"
+                 insert-method-name="apply$mcJ$sp"
+                 insert-key-expression="$this0" />
+  <capture-point enabled="false"
+                 insert-method-name="apply$mcF$sp"
+                 insert-key-expression="$this0" />
+  <capture-point enabled="false"
+                 insert-method-name="apply$mcD$sp"
+                 insert-key-expression="$this0" />
+  <capture-point enabled="false"
+                 insert-method-name="apply$mcZ$sp"
+                 insert-key-expression="$this0" />
+  <capture-point enabled="false"
+                 insert-method-name="apply$mcV$sp"
+                 insert-key-expression="$this0" />
 </capture-points>
