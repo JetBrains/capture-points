@@ -1,0 +1,17 @@
+<capture-points>
+    <capture-point enabled="false"
+                   class-name="kotlin.coroutines.experimental.jvm.internal.CoroutineImpl"
+                   method-name="&lt;init&gt;"
+                   capture-key-expression="this"
+                   insert-class-name="kotlin.coroutines.experimental.jvm.internal.CoroutineImpl"
+                   insert-method-name="resume"
+                   insert-key-expression="this"/>
+
+    <capture-point enabled="false"
+                   class-name=""
+                   method-name=""
+                   capture-key-expression=""
+                   insert-class-name="kotlin.coroutines.experimental.jvm.internal.CoroutineImpl"
+                   insert-method-name="resumeWithException"
+                   insert-key-expression="this"/>
+</capture-points>
