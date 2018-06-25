@@ -1,0 +1,9 @@
+<capture-points>
+    <capture-point enabled="false"
+                   class-name="com.sun.javafx.application.PlatformImpl"
+                   method-name="runLater"
+                   capture-key-expression="param_0"
+                   insert-class-name="com.sun.glass.ui.InvokeLaterDispatcher$Future"
+                   insert-method-name="run"
+                   insert-key-expression="runnable.arg$1"/>
+</capture-points>
