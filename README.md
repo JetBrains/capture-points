@@ -3,6 +3,8 @@
 
 Read more about the feature in the [Jetbrains blog](https://blog.jetbrains.com/idea/2017/02/intellij-idea-2017-1-eap-extends-debugger-with-async-stacktraces/).
 
+In IDEA 2017.3 Async Stack Traces were implemented using the dedicated java agent, which works with much lower overhead, and most settings from this repository were hardcoded into the agent settings. Project specific setup is still available via the [code annotations]( https://github.com/JetBrains/capture-points/wiki/Annotations-support).
+
 ## To use the capture points
  1. download the xml settings file:
   1. click on the required xml file
