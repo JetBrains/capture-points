@@ -13,4 +13,11 @@
                  insert-class-name="scala.concurrent.impl.CallbackRunnable"
                  insert-method-name="run"
                  insert-key-expression="this"/>
+  <capture-point enabled="false"
+                 class-name="scala.concurrent.impl.Promise$Transformation"
+                 method-name="&lt;init&gt;"
+                 capture-key-expression="this"
+                 insert-class-name="scala.concurrent.impl.Promise$Transformation"
+                 insert-method-name="run"
+                 insert-key-expression="this"/>
 </capture-points>
