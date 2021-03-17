@@ -12,7 +12,15 @@
                  method-name="$bang"
                  capture-key-expression="message"/>
   <capture-point enabled="false"
+                 class-name="akka.actor.ActorRef"
+                 method-name="$bang"
+                 capture-key-expression="message"/>
+  <capture-point enabled="false"
                  insert-class-name="akka.actor.Actor$class"
+                 insert-method-name="aroundReceive"
+                 insert-key-expression="msg" />
+  <capture-point enabled="false"
+                 insert-class-name="akka.actor.Actor"
                  insert-method-name="aroundReceive"
                  insert-key-expression="msg" />
 </capture-points>
